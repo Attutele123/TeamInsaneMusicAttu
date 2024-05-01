@@ -35,14 +35,14 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TheTeamInsane/TeamInsaneMusic",
+    "https://github.com/Attutele123/TeamInsaneMusicAttu",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", None)
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", None)
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TeamHyperNetworks")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Team_Hypers_Networks")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
 
@@ -62,8 +62,8 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 GITHUB_REPO = getenv("GITHUB_REPO", None)
 
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "e60cd7a829cc4a80804553a20c216379")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "c9d6d953a45b47aea4f56a0acb45ece2")
 
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "3"))
 
